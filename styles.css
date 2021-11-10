@@ -1,0 +1,222 @@
+desktop {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+
+welcome {
+    position: absolute;
+    width: 154px;
+    height: 32px;
+    left: calc(50% - 154px/2);
+    top: calc(50% - 32px/2 - 335px);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    /* 800 */
+
+    color: #2D3748;
+}
+
+login { 
+    position: absolute;
+    width: 474px;
+    height: 60px;
+    left: calc(50% - 474px/2);
+    top: calc(50% - 60px/2 - 260px);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #000000;
+
+}
+email {
+    position: absolute;
+    left: 0%;
+    right: 91.86%;
+    top: 0%;
+    bottom: 92.35%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* 700 */
+
+    color: #4A5568;
+}
+
+password {
+    position: absolute;
+    left: 0%;
+    right: 85.62%;
+    top: 42.33%;
+    bottom: 50.02%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* 700 */
+    
+    color: #4A5568;
+}
+
+email_box {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 13.95%;
+    bottom: 62.79%;
+    
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+password_box {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 56.28%;
+    bottom: 20.47%;
+    
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+email_text {
+    position: absolute;
+    left: 5.71%;
+    right: 60.09%;
+    top: 21.86%;
+    bottom: 70.49%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* 800 */
+    
+    color: #2D3748;
+}
+
+password_text {
+    position: absolute;
+    left: 5.71%;
+    right: 81.53%;
+    top: 65.58%;
+    bottom: 26.77%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+remember_me {
+    position: absolute;
+    left: 7.43%;
+    right: 71.27%;
+    top: 92.56%;
+    bottom: -0.21%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+remember_me_button {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 369px;
+    top: 649px;
+    
+    background: rgba(196, 196, 196, 0.5);
+}
+
+forgot_password {
+    position: absolute;
+    left: 67.71%;
+    right: 6.23%;
+    top: 92.56%;
+    bottom: -0.21%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+login_button {
+    position: absolute;
+    width: 730px;
+    height: 86px;
+    left: calc(50% - 730px/2);
+    top: calc(50% - 86px/2 + 258px);
+}
+
+login_text { 
+    position: absolute;
+    left: 41.13%;
+    right: 41.07%;
+    top: 30%;
+    bottom: 31.63%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+   
+}
+
+new_user { 
+    position: absolute;
+    width: 271px;
+    height: 32px;
+    left: calc(50% - 271px/2 - 0.5px);
+    top: calc(50% - 32px/2 + 368px);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #616161;
+}
+
