@@ -1,10 +1,28 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>JDF 1356 Demo</title>
-    </head>
-    <body>
-        <h1>Welcome to our demo!</h1>
-        <script type="module" src="algorithm.js"></script>
-    </body>
+<head>
+<style>
+form {
+    text-align: center;
+    margin: auto;
+}
+</style>
+<title>JDF 1356 Demo</title>
+
+</head>
+<body>
+
+<h1 style="text-align:center;">Welcome to our demo!</h1>
+<h3 style="text-align:center;">Insert an image file using the button below.</h3>
+
+<form>
+<label for="test">Select a file:</label>
+<input type="file" id="test" name="test" accept="image/*"><br><br>
+<button onclick="document.getElementById('test').innerHTML = numObjects()">Submit</button>
+<!--<input type="submit">-->
+</form>
+
+<script type="module" src="algorithm.js"></script>
+
+</body>
 </html>
