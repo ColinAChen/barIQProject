@@ -1,5 +1,6 @@
 import React from 'react';
 import "../CSS/dashboard.css";
+import img1 from 'image.png'
 
 const Dashboard = () => {
 return (
@@ -47,6 +48,7 @@ return (
 				<p>Accounted Cases Percentage</p>
 			</div>
 		</div>
+		<img src={img1}></img>
 		<table id='analytics'>
 			<tr>
 				<th>Brand</th>
