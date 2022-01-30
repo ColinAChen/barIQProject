@@ -11,7 +11,7 @@ return (
 			Dashboard
 		</NavLink>
 		<NavLink to="/upload" activeStyle>
-			Upload Page
+			Upload Image
 		</NavLink>
 		</NavMenu>
 	</Nav>

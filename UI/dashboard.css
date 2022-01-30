@@ -1,0 +1,57 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    font-family: Mulish;
+    font-style: normal;
+}
+#header {
+text-align: left;
+}
+.inventory {
+    display: flex;
+    width: 80%;
+    height: 15%;
+    margin-left: 10%;
+}
+.box {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+    display: flex;
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-around;
+}
+.chart {
+    display: flex;
+    height: 40%;
+    width: 55%;
+    margin-left: 10%;
+    float: left;
+}
+.chartinfo {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+    margin-left: 65%;
+    height: 40%;
+    margin: 2%;
+}
+#analytics {
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+#analytics th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #68cf5d;
+    color: white;
+  }

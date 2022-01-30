@@ -11,6 +11,7 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
+		<Route exact path='/' exact element={<Dashboard/>} />
 		<Route path='/dashboard' element={<Dashboard/>} />
 		<Route path='/upload' element={<Upload/>} />
 	</Routes>
