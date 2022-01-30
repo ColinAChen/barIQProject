@@ -23,6 +23,12 @@ text-align: left;
     margin: auto;
     justify-content: space-around;
 }
+.styledimg {
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px;
+    }
 .chart {
     display: flex;
     height: 40%;
