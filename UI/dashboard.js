@@ -74,7 +74,7 @@ return (
 			</tr>
 		</table>
 	</div>
-);
+); 
 }; 
 
 export default Dashboard;
