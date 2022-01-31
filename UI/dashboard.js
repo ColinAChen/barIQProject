@@ -1,6 +1,6 @@
 import React from 'react';
 import "../CSS/dashboard.css";
-import img1 from 'image.png'
+import img1 from './image.png';
 
 const Dashboard = () => {
 return (
@@ -24,31 +24,35 @@ return (
 		</div>
 		<div className='chartbox'>
 			<div className='chart'>
-				<p>Daily and Monthly Trends</p>
-				{/* <br/> */}
-				<p>as of 30 January 2021, 4:20pm</p>
+				<div className='title'>
+					<p>Daily and Monthly Trends</p>
+					<p>as of 30 January 2021, 4:20pm</p>
+				</div>
+				<img src={img1}></img>
 			</div>
-			<div className='chartinfo'>
-				<p>Pallets Received This Month</p>
-				{/* <br/> */}
+			<div id='chartinfo'>
+				<div className='info'>
+					<p>Pallets Received This Month</p>
+					
+				</div>
+				<div className='info'>
+					<p>Pallets Received Today</p>
+				
+				</div>
+				<div className='info'>
+					<p>Incoming Pallets</p>
+					
+				</div>
+				<div className='info'>
+					<p>Outgoing Pallets</p>
+					
+				</div>
+				<div className='info'>
+					<p>Accounted Cases Percentage</p>
+				</div>
 			</div>
-			<div className='chartinfo'>
-				<p>Pallets Received Today</p>
-				{/* <br/> */}
-			</div>
-			<div className='chartinfo'>
-				<p>Incoming Pallets</p>
-				{/* <br/> */}
-			</div>
-			<div className='chartinfo'>
-				<p>Outgoing Pallets</p>
-				{/* <br/> */}
-			</div>
-			<div className='chartinfo'>
-				<p>Accounted Cases Percentage</p>
-			</div>
+			
 		</div>
-		<img src={img1}></img>
 		<table id='analytics'>
 			<tr>
 				<th>Brand</th>
@@ -76,7 +80,7 @@ return (
 			</tr>
 		</table>
 	</div>
-); 
-}; 
+);
+};
 
 export default Dashboard;

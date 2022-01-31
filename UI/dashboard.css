@@ -5,7 +5,12 @@
     font-style: normal;
 }
 #header {
-text-align: left;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
 }
 .inventory {
     display: flex;
@@ -23,29 +28,53 @@ text-align: left;
     margin: auto;
     justify-content: space-around;
 }
-.styledimg {
-    background-image: url(image.png);
-    background-repeat: no-repeat;
-    width: 10px;
-    height: 20px;
-    }
-.chart {
-    display: flex;
-    height: 40%;
-    width: 55%;
-    margin-left: 10%;
-    float: left;
+.brand {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9FA2B4;
 }
-.chartinfo {
-    border-style: solid;
-    border-color: black;
+.chartbox {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.title {
+    width: 100%;
+    flex: none;
+    text-align: left;
+}
+.chart {
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 23%;
-    margin-left: 65%;
-    height: 40%;
-    margin: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img {
+    background-repeat: no-repeat;
+    max-width: 90%; 
+    height: 100%;
+    margin-bottom: 2%;
+}
+#chartinfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+.info {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 #analytics {
     width: 80%;
