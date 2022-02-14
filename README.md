@@ -1,5 +1,5 @@
 # JIA 1356 barIQProject
-Our project uses computer vision to identify beverages in pallets by reading flags hanging into the aisles. A robot with cameras will pass by taking pictures which our program will crop the images and determine the number of pallets and what item that row contains.
+We are working with BarIQ, founded by Daniel Knotts, and a large distributor of Anheuser-Busch products to optimize inventory visibility and warehouse operations across the supply chain with the use of cameras. By utilizing machine learning, the program will learn to detect and identify the inventory, allowing warehouse managers to carry out tasks with ease. We will place an array of cameras that will take images of pallets at 3 different heights and use computer vision software to decipher the images, eliminating significant labor costs and time sinks. 
 
 
 License: GNU AGPLv3
