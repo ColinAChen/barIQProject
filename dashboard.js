@@ -11,15 +11,19 @@ return (
 		<div className='inventory'>
 			<div className='box'>
 				<p>Total Inventory</p>
+				<p>647</p>
 			</div>
 			<div className='box'>
 				<p>Brand 1</p>
+				<p>420</p>
 			</div>
 			<div className='box'>
 				<p>Brand 2</p>
+				<p>158</p>
 			</div>
 			<div className='box'>
 				<p>Brand 3</p>
+				<p>69</p>
 			</div>
 		</div>
 		<div className='chartbox'>
@@ -33,22 +37,24 @@ return (
 			<div id='chartinfo'>
 				<div className='info'>
 					<p>Pallets Received This Month</p>
+					<p>417</p>
 					
 				</div>
 				<div className='info'>
 					<p>Pallets Received Today</p>
-				
+					<p>67</p>
 				</div>
 				<div className='info'>
 					<p>Incoming Pallets</p>
-					
+					<p>20</p>
 				</div>
 				<div className='info'>
 					<p>Outgoing Pallets</p>
-					
+					<p>48</p>
 				</div>
 				<div className='info'>
 					<p>Accounted Cases Percentage</p>
+					<p>98%</p>
 				</div>
 			</div>
 			

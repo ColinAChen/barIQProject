@@ -27,6 +27,8 @@
     height: 100%;
     margin: auto;
     justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
 }
 .brand {
     font-weight: bold;
@@ -75,6 +77,8 @@ img {
     width: 100%;
     border: 1px solid black;
     border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
 }
 #analytics {
     width: 80%;

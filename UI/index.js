@@ -1,22 +1,17 @@
-import React from "react";
-import { Nav, NavLink, NavMenu }
-	from "./NavbarElements";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-const Navbar = () => {
-return (
-	<>
-	<Nav>
-		<NavMenu>
-		<NavLink to="/dashboard" activeStyle>
-			Dashboard
-		</NavLink>
-		<NavLink to="/upload" activeStyle>
-			Upload Image
-		</NavLink>
-		</NavMenu>
-	</Nav>
-	</>
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
-};
 
-export default Navbar;
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
