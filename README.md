@@ -13,6 +13,15 @@ License: GNU AGPLv3
 #### Issues
 - An issue exists on the first tab with resizing of some of the div boxes that contain data on certain inventory analytics
 
+### Version 0.2.0
+#### New Features
+- Developed the flag-counting computer vision software in Python using OpenCV, a computer vision library 
+- Integrated front-end image-inputting into React and Flask, another Python library, to allow for image processing
+#### Bug Fixes
+- N/A
+#### Issues
+- The image data being inputted from the front-end side is not formatting correctly in the algorithm pipeline
+
 
 ## Other Project Details
 Our project uses computer vision to identify beverages in pallets. Each pallet will have a flag tag hanging into the aisle. A tower with 2 cameras on each side will roll in front of each aisle taking scanning the products in the rows. Each side of the tower will have one bottom ultra-wide camera scanning the lowest row and the middle row and one top camera aimed at the top flags. The first tag in each row will have a barcode providing all the information needed by the client to determine exactly what product is there and other data on the pallets in that row. All the tags behind and including the first tag will have a neon green color allowing our software to easily identify that there is a tag. Our software will then count the pallets and update the inventory. Each row will have a left side of pallets and a right side, our software will crop the image into 2 images for each side and run our program on these 2 images. 
