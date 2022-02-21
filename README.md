@@ -18,7 +18,7 @@ License: GNU AGPLv3
 - Developed the flag-counting computer vision software in Python using OpenCV, a computer vision library 
 - Integrated front-end image-inputting into React and Flask, another Python library, to allow for image processing
 #### Bug Fixes
-- N/A
+- Fixed the tab resizing issue in the div boxes from last release
 #### Issues
 - The image data being inputted from the front-end side is not formatting correctly in the algorithm pipeline
 
