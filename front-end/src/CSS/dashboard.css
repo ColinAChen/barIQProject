@@ -1,0 +1,92 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    font-family: Mulish;
+    font-style: normal;
+}
+#header {
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}
+.inventory {
+    display: flex;
+    width: 80%;
+    height: 15%;
+    margin-left: 10%;
+}
+.box {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+    display: flex;
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-around;
+}
+.brand {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9FA2B4;
+}
+.chartbox {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.title {
+    width: 100%;
+    flex: none;
+    text-align: left;
+}
+.chart {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img {
+    background-repeat: no-repeat;
+    max-width: 90%; 
+    height: 100%;
+    margin-bottom: 2%;
+}
+#chartinfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+.info {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#analytics {
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+#analytics tr:nth-child(even){background-color: #f2f2f2;}
+#analytics tr:hover {background-color: #ddd;}
+#analytics th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #68cf5d;
+    color: white;
+  }
