@@ -3,7 +3,7 @@ from werkzeug.utils import secure_filename
 import os
 
 import detect
-
+import segment
 UPLOAD_FOLDER = './../data/samples'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 DISPLAY_FOLDER = './../output'
@@ -62,6 +62,8 @@ def upload_file():
                 # outputs are now in the output folder
                 #retPath = os.path.join(app.config['DISPLAY_FOLDER'], filename)
         detect.run()
+        #segment.evalPath()
+        print(file_names)
         return render_template('demo.html', filenames=file_names)
         # display the html
 
@@ -72,7 +74,7 @@ def upload_file():
 
 @app.route('/display/<filename>')
 def display_image(filename):
-    #print('display_image filename: ' + filename)
+    print('display_image filename: ' + filename)
     #filename = filename.split('.')[0] + '.png'
     #print("fetch:", filename)
     return redirect(url_for('static', filename='uploads/' + filename), code=301)
