@@ -4,13 +4,16 @@
     font-family: Mulish;
     font-style: normal;
 }
-#header {
-    margin-left: 10%;
+#title {
+    text-align: center;
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
     letter-spacing: 0.3px;
     color: #252733;
+}
+#upload {
+    text-align: center;
 }
 .inventory {
     display: flex;
@@ -30,27 +33,27 @@
     text-align: center;
     font-weight: bold;
 }
-.brand {
+.text {
     font-weight: bold;
     font-size: 19px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.4px;
-    color: #9FA2B4;
 }
-.chartbox {
+/* .chartbox {
     display: flex;
     flex-direction: row;
     width: 80%;
     height: 40%;
     margin-left: 10%;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 .title {
     width: 100%;
     flex: none;
     text-align: left;
+    font-weight: bold;
 }
 .chart {
     width: 60%;
@@ -70,7 +73,6 @@ img {
     width: 40%;
     display: flex;
     flex-direction: column;
-    padding: 10px;
     justify-content: space-between;
 }
 .info {
@@ -78,8 +80,10 @@ img {
     border: 1px solid black;
     border-radius: 4px;
     text-align: center;
+    font-size: 75%;
     font-weight: bold;
-}
+    margin-bottom: 0%;
+} */
 #analytics {
     width: 80%;
     margin-left: 10%;
@@ -91,6 +95,6 @@ img {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #68cf5d;
+    background-color: #303a61;
     color: white;
   }
