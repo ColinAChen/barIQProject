@@ -1,6 +1,22 @@
 # JIA 1356 barIQProject
 We are working with BarIQ, founded by Daniel Knotts, and a large distributor of Anheuser-Busch products to optimize inventory visibility and warehouse operations across the supply chain with the use of cameras. By utilizing machine learning, the program will learn to detect and identify the inventory, allowing warehouse managers to carry out tasks with ease. We will place an array of cameras that will take images of pallets at 3 different heights and use computer vision software to decipher the images, eliminating significant labor costs and time sinks. 
 
+# Installation Guide
+  <code>pip install opencv-python</code>
+  
+  <code>pip install pyzbar</code>
+  
+  <code>pip install Flask</code>
+  
+  <code>npx create-react-app my-app</code>
+ 
+# Starting the Flask server
+  <code>python app.py</code>
+  
+# Starting the React frontend
+  <code>npm start</code>
+  
+  
 
 License: GNU AGPLv3
 ## Release Notes
