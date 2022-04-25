@@ -4,19 +4,19 @@ We are working with BarIQ, founded by Daniel Knotts, and a large distributor of 
 # Installation Guide
 First, install Homebrew, which will allow for an easy installation of the other necessary libraries:
 
-  <code>$/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"</code>
+  <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"</code>
   
 Next, install the following Python libraries using Pip, which comes with Homebrew:
   
-  <code>$pip install opencv-python</code>
+  <code>pip install opencv-python</code>
   
-  <code>$pip install pyzbar</code>
+  <code>pip install pyzbar</code>
   
-  <code>$pip install Flask</code>
+  <code>pip install Flask</code>
   
 Then, use npx, which comes with Homebrew, to install React and create the app framework:
   
-  <code>$npx create-react-app my-app</code>
+  <code>npx create-react-app my-app</code>
  
 # Starting the Flask server
 
