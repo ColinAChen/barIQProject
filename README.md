@@ -2,18 +2,32 @@
 We are working with BarIQ, founded by Daniel Knotts, and a large distributor of Anheuser-Busch products to optimize inventory visibility and warehouse operations across the supply chain with the use of cameras. By utilizing machine learning, the program will learn to detect and identify the inventory, allowing warehouse managers to carry out tasks with ease. We will place an array of cameras that will take images of pallets at 3 different heights and use computer vision software to decipher the images, eliminating significant labor costs and time sinks. 
 
 # Installation Guide
-  <code>pip install opencv-python</code>
+First, install Homebrew, which will allow for an easy installation of the other necessary libraries:
+
+  <code>$/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"</code>
   
-  <code>pip install pyzbar</code>
+Next, install the following Python libraries using Pip, which comes with Homebrew:
   
-  <code>pip install Flask</code>
+  <code>$pip install opencv-python</code>
   
-  <code>npx create-react-app my-app</code>
+  <code>$pip install pyzbar</code>
+  
+  <code>$pip install Flask</code>
+  
+Then, use npx, which comes with Homebrew, to install React and create the app framework:
+  
+  <code>$npx create-react-app my-app</code>
  
 # Starting the Flask server
+
+In order to start the Flask server, run the following line in your terminal:
+
   <code>python app.py</code>
   
 # Starting the React frontend
+
+Finally, to start the front-end, run the following line:
+
   <code>npm start</code>
   
   
